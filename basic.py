@@ -8,7 +8,7 @@ from spade_bdi.bdi import BDIAgent
 jid = input("JID> ")
 passwd = getpass.getpass()
 
-a = BDIAgent(jid, passwd, "hello_world.asl")
+a = BDIAgent(jid, passwd, "hola_mundo.asl")
 a.start()
 
 time.sleep(3)
