@@ -7,7 +7,8 @@ Se está probando el lenguaje en el siguiente entorno:
 - Windows 10 como sistema operativo.
 
 ## Ejecutar ASL
-Cambiar el nombre en el fichero basic.py
+- Cambiar ruta del fichero ASL en el fichero basic.py
+- Escribir usuario@servidor y contraseña del servidor XMPP
 
 ## Más ejemplos
 http://jason.sourceforge.net/jBook/jBookWebSite/Examples.html

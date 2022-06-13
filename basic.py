@@ -11,6 +11,7 @@ passwd = "12345"
 a = BDIAgent(jid, passwd, "condicional.asl")
 a.start()
 
+# Es para que se ejecute el fichero ASL, aumentar si el tiempo no es suficiente
 time.sleep(3)
 
 
