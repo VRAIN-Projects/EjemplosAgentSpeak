@@ -5,10 +5,10 @@ from spade import quit_spade
 
 from spade_bdi.bdi import BDIAgent
 
-jid = input("JID> ")
-passwd = getpass.getpass()
+jid = "agente1@localhost"
+passwd = "12345"
 
-a = BDIAgent(jid, passwd, "./jason_examples/chap3/domestic-robot/robot.asl")
+a = BDIAgent(jid, passwd, "condicional.asl")
 a.start()
 
 time.sleep(3)

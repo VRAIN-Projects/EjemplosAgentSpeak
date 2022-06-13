@@ -2,5 +2,5 @@
 
 +coche(rojo).
 
-+!pintarCocheDeColorRojo(N) : ?coche(rojo) <- .print("Ya es rojo, ¿para que lo quieres pintar?").
++!pintarCocheDeColorRojo(N) : coche(rojo) <- .print("Ya es rojo, ¿para que lo quieres pintar?").
 
