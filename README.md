@@ -12,6 +12,7 @@ Se está probando el lenguaje en el siguiente entorno:
 
 ## Más ejemplos
 http://jason.sourceforge.net/jBook/jBookWebSite/Examples.html
+https://github.com/javipalanca/pygomas/tree/master/pygomas/ASL
 
 # Símbolos
 - "+" Añadir creencia
@@ -21,11 +22,27 @@ http://jason.sourceforge.net/jBook/jBookWebSite/Examples.html
 - "+?" Añadir test-objetivo
 - "-?" Eliminar test-objetivo
 - "!" logro
+- "!!" N/S
 - ":" Se usa del siguiente modo (triggering_event : context <- body)
-- - El contexto es true o false.
-- - El body es lo que se ejecuta si es cierto el contexto
-- ":-" Se usa en las creencias
+    - El contexto es true o false.
+        - "&" operador booleano and
+        - "|" operador booleano or
+        - "not" operador booleano negación
+    - El body es lo que se ejecuta si es cierto el contexto
+    
+- ";" Separar los planes 
+- ":-" Se usa en las creencias. Son como reglas.
+- "." Fin del plan o de la creencia
+- Variables. Empiezan con mayúscula. Se usan en los planes.
+- Conocimiento. Pueden empezar con minúscula. Se usan en las creencias.
 
 # Otros símbolos no testeados EN SPADE_BDI pero existentes en la versión 3.1 de JASON
 - "<:" TK_GOAL_CONDITION Condición de objetivo
 - "::" TK_NS_SEP
+- "@" Etiquetas de planes
+
+# Cosas no implementados
+- "|" Separa el primer elemento de la lista del resto
+- "ATOM" Aisla un agente del resto
+- listas
+- broadcast
