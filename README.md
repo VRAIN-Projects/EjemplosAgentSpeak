@@ -46,3 +46,6 @@ https://github.com/javipalanca/pygomas/tree/master/pygomas/ASL
 - "ATOM" Aisla un agente del resto
 - listas
 - broadcast
+
+# Github AgentSpeak para python
+https://github.com/niklasf/python-agentspeak
